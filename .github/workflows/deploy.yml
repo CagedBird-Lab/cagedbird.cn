@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # 设置 GITHUB_TOKEN 的权限，用于部署到 GitHub Pages
 permissions:
   contents: read
