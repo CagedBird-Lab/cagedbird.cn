@@ -1,5 +1,5 @@
 - class_name: 关于页
-  subtitle: 记录点滴，探索无限✨
+  subtitle: 公开资料与联系方式
 # about page data
 # See: https://github.com/theme-next/hexo-theme-next/blob/master/layout/about.njk
   avatarImg: https://github.com/cagedbird043.png
@@ -15,8 +15,8 @@
       - 📈 探讨新技术趋势
       - 🗣️ 分享观点与见解
 
-  name: Mice
-  description: 是一名 学生、独立开发者、博主
+  name: Xiuqi Xu
+  description: Mice
   aboutsiteTips:
     tips: 探索
     title1: 在于

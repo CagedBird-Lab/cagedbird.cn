@@ -12,58 +12,17 @@ type: "about"
   <img src="https://github.com/cagedbird043.png" alt="Mice" style="width: 150px; height: 150px; border-radius: 50%; margin: 20px auto; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
-## 👋 你好，我是 Mice
+## 你好，我是 Xiuqi Xu
 
-> 记录点滴，探索无限 —— 一个热爱技术与创新的工程师
+这个页面用于公开展示我的基本身份信息，供 OpenReview 等学术或专业平台引用。
 
-### 🚀 关于我
+### 公开信息
 
-我是一名专注于系统编程和人工智能的工程师，喜欢用代码解决实际问题，用文字分享技术心得。
+- **姓名 / Full name**: **Xiuqi Xu**
+- **学校邮箱 / School email**: [a19230279@neau.edu.cn](mailto:a19230279@neau.edu.cn)
+- **个人邮箱 / Personal email**: [cagedbird043@gmail.com](mailto:cagedbird043@gmail.com)
+- **常用昵称 / Alias**: **Mice**
+- **GitHub**: [@cagedbird043](https://github.com/cagedbird043)
+- **博客**: [https://miceworld.top/about/](https://miceworld.top/about/)
 
-**技术栈：**
-
-- 💻 **系统编程**: Rust、C/C++、Linux 内核
-- 🤖 **人工智能**: 计算机视觉、深度学习、模型部署
-- 🔧 **开发工具**: Git、Docker、CI/CD
-- 📱 **移动开发**: Android、Termux
-
-### 🎯 我在做什么
-
-- 🔬 **深度研究**: Linux 性能分析与优化
-- 🦀 **开源项目**: RKYOLO、PIPA-rs 等 Rust 项目
-- 📝 **技术写作**: 分享系统编程与 AI 实践经验
-- 🌱 **持续学习**: 探索新技术，保持技术敏感度
-
-### 📈 技术理念
-
-```rust
-fn my_philosophy() -> &'static str {
-    "代码如诗，简洁优雅；
-     性能为王，可读性为后；
-     开源精神，知识共享；
-     持续迭代，永不止步。"
-}
-```
-
-### 🎨 兴趣爱好
-
-- 🎮 **极客文化**: 热衷于折腾各种开发环境
-- 📚 **阅读思考**: 技术书籍、科幻小说
-- ⚡ **效率工具**: 不断优化工作流程
-- 🌏 **开源贡献**: 参与社区项目，回馈开发者
-
-### 💬 联系方式
-
-- 📧 **邮箱**: [cagedbird043@gmail.com](mailto:cagedbird043@gmail.com)
-- 🐙 **GitHub**: [@cagedbird043](https://github.com/cagedbird043)
-- 🌐 **博客**: [https://miceworld.top](https://miceworld.top)
-
-### 🎉 博客统计
-
-欢迎来到我的技术世界！这里记录了我在编程路上的点点滴滴，希望我的经验能对你有所帮助。
-
----
-
-<div style="text-align: center; margin-top: 40px; color: #666;">
-  <p>✨ <em>愿每一行代码都如诗般美丽，映照出技术的光辉与智慧</em> ✨</p>
-</div>
+如果你是通过 OpenReview 访问这个页面，上述姓名与邮箱就是我公开使用的身份信息。
