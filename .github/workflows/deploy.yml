@@ -37,7 +37,6 @@ jobs:
 
       - name: Generate Hexo site
         run: |
-          sed -i "s|__GITALK_CLIENT_SECRET__|${{ secrets.GITALK_CLIENT_SECRET }}|g" _config.next.yml
           npx hexo generate
 
       - name: Upload Pages fallback artifact

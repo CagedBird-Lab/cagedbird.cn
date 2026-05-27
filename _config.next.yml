@@ -183,7 +183,7 @@ gitalk:
   github_id: Mice-Tailor-Infra
   repo: cagedbird.cn
   client_id: Ov23liy7tMJ5tyB8eucY
-  client_secret: "__GITALK_CLIENT_SECRET__"
+  client_secret: ""
   admin_user: cagedbird043
   distraction_free_mode: true
   language: zh-CN
