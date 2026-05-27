@@ -56,11 +56,10 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
         run: |
-          release="/srv/cagedbird/blog.releases/${GITHUB_SHA}"
-          ssh -i ~/.ssh/deploy_key "$REMOTE_USER@$REMOTE_HOST" "rm -rf '$release' && mkdir -p '$release'"
           test -s public/index.html
-          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key" public/ "$REMOTE_USER@$REMOTE_HOST:$release/"
-          ssh -i ~/.ssh/deploy_key "$REMOTE_USER@$REMOTE_HOST" "set -e; test -s '$release/index.html'; ln -sfnT '$release' /srv/cagedbird/blog; find /srv/cagedbird/blog.releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -n | head -n -5 | cut -d' ' -f2- | xargs -r rm -rf"
+          ssh -i ~/.ssh/deploy_key "$REMOTE_USER@$REMOTE_HOST" "mkdir -p /srv/cagedbird/blog"
+          rsync -rvzP --delete -e "ssh -i ~/.ssh/deploy_key" public/ "$REMOTE_USER@$REMOTE_HOST:/srv/cagedbird/blog/"
+          ssh -i ~/.ssh/deploy_key "$REMOTE_USER@$REMOTE_HOST" "test -s /srv/cagedbird/blog/index.html"
 
   pages-fallback:
     environment:
