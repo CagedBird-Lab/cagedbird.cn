@@ -1,5 +1,5 @@
 ---
-title: Mice-Tailor-Infra 进化论（三）：从二进制到基础设施 —— IaC 视角下的 Sing-box 治理
+title: CagedBird-Lab 进化论（三）：从二进制到基础设施 —— IaC 视角下的 Sing-box 治理
 date: 2026-01-02 23:59:00
 categories:
   - 技术实践
@@ -10,7 +10,7 @@ tags:
   - Infrastructure-as-Code
   - Shell
   - Android
-  - Mice-Tailor-Infra
+  - CagedBird-Lab
 ---
 
 ### 引子：告别“纯手工”时代
@@ -20,7 +20,7 @@ tags:
 2. 想要微调一个分流规则，得在手机那个局促的编辑器里改几十行 JSON。
 3. 换了台手机，所有的分流逻辑又要重写一遍。
 
-在 Mice-Tailor-Infra 的世界里，这种低效的操作是不被允许的。既然我们已经有了准时的调度（MiceTimer）和高质量的数据（FCM-Hosts-Next），那么最后一步就是：**将 Sing-box 运行环境彻底基础设施化。**
+在 CagedBird-Lab 的世界里，这种低效的操作是不被允许的。既然我们已经有了准时的调度（MiceTimer）和高质量的数据（FCM-Hosts-Next），那么最后一步就是：**将 Sing-box 运行环境彻底基础设施化。**
 
 今天我们要聊的是：如何用 **Infrastructure as Code (IaC)** 的思想，重构 Android 端的网络治理。
 
@@ -61,7 +61,7 @@ tags:
 
 ### 4. 进化之路：从“玩机”到“运维”
 
-到此为止，**Mice-Tailor-Infra** 的三部曲已经合拢：
+到此为止，**CagedBird-Lab** 的三部曲已经合拢：
 1. **MiceTimer** 解决了“什么时候做”。
 2. **FCM-Hosts-Next** 解决了“做什么（数据质量）”。
 3. **Sing-box-KSU-Module** 解决了“怎么高效地做（部署架构）”。
@@ -73,8 +73,8 @@ tags:
 ---
 
 ### 项目链接
-- **Sing-box 核心环境**: [GitHub - Mice-Tailor-Infra/sing-box-ksu-module](https://github.com/Mice-Tailor-Infra/sing-box-ksu-module)
-- **配置模板中心**: [GitHub - Mice-Tailor-Infra/sing-box-config-templates](https://github.com/Mice-Tailor-Infra/sing-box-config-templates)
-- **Mice-Tailor-Infra 门户**: [cagedbird.cn](https://cagedbird.cn)
+- **Sing-box 核心环境**: [GitHub - CagedBird-Lab/sing-box-ksu-module](https://github.com/CagedBird-Lab/sing-box-ksu-module)
+- **配置模板中心**: [GitHub - CagedBird-Lab/sing-box-config-templates](https://github.com/CagedBird-Lab/sing-box-config-templates)
+- **CagedBird-Lab 门户**: [cagedbird.cn](https://cagedbird.cn)
 
 Stay hungry, stay coding.

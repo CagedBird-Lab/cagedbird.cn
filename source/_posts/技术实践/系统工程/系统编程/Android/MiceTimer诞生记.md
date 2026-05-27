@@ -89,7 +89,7 @@ fs::write("/sys/power/wake_unlock", &lock_name)?;
 
 ### 5. 架构飞跃：从“散兵游勇”到“中心调度”
 
-在开发 MiceTimer 的过程中，我顺便重构了我的整个 **Mice-Tailor-Infra** 生态。
+在开发 MiceTimer 的过程中，我顺便重构了我的整个 **CagedBird-Lab** 生态。
 
 以前，每个 KSU 模块（比如 FCM-Hosts, DNS-Optimizer）都要自己写一套简陋的 `service.sh` 循环。现在，我引入了 **Skeleton（空壳）架构**：
 *   **MiceTimer** 是指挥部（Daemon）：负责所有模块的定时任务。
@@ -128,11 +128,11 @@ WakeLock = true
 
 ---
 
-**Mice-Tailor-Infra** 正在不断进化。下一篇，我们来聊聊如何用“空壳模块”重构你的 Android 系统组件。
+**CagedBird-Lab** 正在不断进化。下一篇，我们来聊聊如何用“空壳模块”重构你的 Android 系统组件。
 
 ### 项目链接
-- **MiceTimer 核心调度器**: [GitHub - Mice-Tailor-Infra/micetimer](https://github.com/Mice-Tailor-Infra/micetimer)
-- **FCM Hosts Optimizer 任务包**: [GitHub - Mice-Tailor-Infra/fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
-- **Infrastructure 主页**: [GitHub - Mice-Tailor-Infra](https://github.com/Mice-Tailor-Infra)
+- **MiceTimer 核心调度器**: [GitHub - CagedBird-Lab/micetimer](https://github.com/CagedBird-Lab/micetimer)
+- **FCM Hosts Optimizer 任务包**: [GitHub - CagedBird-Lab/fcm-hosts-ksu](https://github.com/CagedBird-Lab/fcm-hosts-ksu)
+- **Infrastructure 主页**: [GitHub - CagedBird-Lab](https://github.com/CagedBird-Lab)
 
 Stay hungry, stay coding.

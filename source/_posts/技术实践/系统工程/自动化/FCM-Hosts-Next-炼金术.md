@@ -1,5 +1,5 @@
 ---
-title: Mice-Tailor-Infra 进化论（二）：数据炼金术 —— 揭秘 FCM-Hosts-Next 的自动化工厂
+title: CagedBird-Lab 进化论（二）：数据炼金术 —— 揭秘 FCM-Hosts-Next 的自动化工厂
 date: 2026-01-02 23:30:00
 categories:
   - 技术实践
@@ -10,7 +10,7 @@ tags:
   - FCM
   - DNS
   - 协议分析
-  - Mice-Tailor-Infra
+  - CagedBird-Lab
 ---
 
 ### 引子：域名再美，数据不活也是徒劳
@@ -19,7 +19,7 @@ tags:
 
 市面上大多数 FCM 优化方案都死在了“数据源”上：要么是几个月更新一次的静态文件，要么是简单粗暴的全局 Ping 扫描。
 
-在 Mice-Tailor-Infra 的哲学里，数据不应该是“捡”来的，而应该是“炼”出来的。今天我们拆解这套全自动化的数据工厂：**FCM-Hosts-Next**。
+在 CagedBird-Lab 的哲学里，数据不应该是“捡”来的，而应该是“炼”出来的。今天我们拆解这套全自动化的数据工厂：**FCM-Hosts-Next**。
 
 <!-- more -->
 
@@ -83,7 +83,7 @@ Google 的边缘节点往往是成簇部署的（Cluster）。如果我们发现
 数据有了，调度也有了，我们如何用 **Infrastructure as Code (IaC)** 的思想，打造一套能够随时云端热更新的 **Sing-box** 运行环境？
 
 ### 项目链接
-- **FCM-Hosts-Next (数据工厂)**: [GitHub - Mice-Tailor-Infra/fcm-hosts-next](https://github.com/Mice-Tailor-Infra/fcm-hosts-next)
-- **FCM Hosts Optimizer (终端插件)**: [GitHub - Mice-Tailor-Infra/fcm-hosts-ksu](https://github.com/Mice-Tailor-Infra/fcm-hosts-ksu)
+- **FCM-Hosts-Next (数据工厂)**: [GitHub - CagedBird-Lab/fcm-hosts-next](https://github.com/CagedBird-Lab/fcm-hosts-next)
+- **FCM Hosts Optimizer (终端插件)**: [GitHub - CagedBird-Lab/fcm-hosts-ksu](https://github.com/CagedBird-Lab/fcm-hosts-ksu)
 
 Stay hungry, stay coding.
