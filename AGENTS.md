@@ -23,6 +23,12 @@ NexT 主题的配置有三层，优先级从高到低：
 | `source/404.html` | 自定义 404 公益页面（宝贝回家），由 Caddy `handle_errors` 触发 |
 | `.github/workflows/deploy.yml` | CI/CD：push main → hexo generate → rsync 到 hk-edge |
 
+## 搜索文件
+
+- **优先 `rga -rl '关键词' source/`**，直接指定目录，不经过 `find | xargs` 管道中转。`find` 的 pipe 在中文路径上会崩，而 ripgrep 自己处理 UTF-8 路径完全正常。
+- 不想搜内容只想找文件：`rga --files source/` 或 `ls -R source/`。
+- 不要 `curl` 去线上网站查文件在哪——本地源码目录直接 `ls` 或 `rga` 更快。
+
 ## 基本规则
 
 - 修改要小，范围要准，只动和本次请求相关的文件。
